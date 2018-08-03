@@ -1,1 +1,1 @@
-var a=0,b=20,c=3;
+var mySwiper=new Swiper(".auto",{loop:!0,autoplay:!0,pagination:{el:".swiper-pagination"}});

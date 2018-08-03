@@ -1,3 +1,7 @@
-var a = 0,
-    b = 20,
-    c = 3;
+var mySwiper = new Swiper('.auto', {
+    loop: true,
+    autoplay: true,
+    pagination: {
+        el: '.swiper-pagination',
+    },
+})

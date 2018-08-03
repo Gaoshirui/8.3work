@@ -56,3 +56,29 @@ auto {
     font-size: 12px;
     margin-top: 5px;
 }
+
+.banner {
+    img {
+        width: 100%;
+    }
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    position: flex;
+    bottom: 0;
+}
+
+footer dl {
+    width: 20%;
+    height: auto;
+    text-align: center;
+}
+
+footer dl dd {
+    font-size: 12px;
+}

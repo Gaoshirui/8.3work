@@ -58,7 +58,7 @@ gulp.task('scss', function() {
             browsers: ['last 2 versions', 'Android >= 4.0']
         }))
         //压缩css
-        .pipe(mincss())
+        // .pipe(mincss())
         .pipe(gulp.dest('./src/css'))
 })
 
